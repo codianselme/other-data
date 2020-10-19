@@ -1,0 +1,17 @@
+## Commands
+--------------------
+
+gcc ans_server.c -lpicoquic-core -lpicotls-core -lpicotls-openssl -lssl  -lcrypto -ldl -lpthread -L. -I. -o ans_server
+./ans_server 4433 ./ca-cert.pem ./server-key.pem ./server_files
+
+gcc ans_client.c -lpicoquic-core -lpicotls-core -lpicotls-openssl -lssl  -lcrypto -ldl -lpthread -L. -I. -o ans_client
+./ans_client localhost 4433 /tmp index.htm page.html test.txt  
+
+
+
+
+Object file 
+gcc -c ans_server.c -lpicoquic-core -lpicotls-core -lpicotls-openssl -lssl  -lcrypto -ldl -lpthread -L. -I. 
+
+Compilation 
+gcc ans_server.c -lpicoquic-core -lpicotls-core -lpicotls-openssl -lssl -lcrypto -ldl -lpthread -L. -I. -o ans_serveur
