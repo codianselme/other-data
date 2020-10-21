@@ -1,0 +1,25 @@
+configure:     creating ./config.status
+config.status: creating contrib/Makefile
+config.status: creating include/Makefile
+config.status: creating lib/Makefile          *********
+config.status: creating locale/Makefile
+config.status: creating modules/Makefile
+config.status: creating src/Makefile		*********
+config.status: creating src/prxs
+config.status: creating src/ftpdctl.8
+config.status: creating src/proftpd.8
+config.status: creating src/proftpd.conf.5
+config.status: creating src/xferlog.5
+config.status: creating tests/Makefile
+config.status: creating utils/Makefile
+config.status: creating utils/ftpcount.1
+config.status: creating utils/ftpscrub.8
+config.status: creating utils/ftpshut.8
+config.status: creating utils/ftptop.1
+config.status: creating utils/ftpwho.1
+config.status: creating Makefile		*********
+config.status: creating Make.rules		*********
+config.status: creating config.h
+config.status: executing libtool commands
+config.status: executing default commands
+
